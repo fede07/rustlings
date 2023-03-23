@@ -38,7 +38,6 @@ fn fruit_basket(basket: &mut HashMap<Fruit, u32>) {
         // present!
 
         basket.entry(fruit).or_insert(4);
-        basket.entry()
 
     }
 }
